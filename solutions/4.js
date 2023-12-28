@@ -20,3 +20,16 @@ function decode (message) {
 
   return message
 }
+
+// 280 points with regex
+function decodeWithRegex (message) {
+  const match = message.match(/\(([^()]+)\)/)
+
+  if (!match) return message
+
+  const sanitized = match[0].slice(1, -1).split('').reverse('').join('')
+  const result = message.replaceAll(match[0], sanitized)
+  const recursiveResult = decode(result)
+
+  return recursiveResult
+}

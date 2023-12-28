@@ -1,6 +1,8 @@
+// 270 points
 function organizeGifts (gifts) {
   const regex = /(\d+[a-z])/g
   const result = gifts.match(regex)
+
   return result.reduce((result, gift) => {
     const [n, s] = [parseInt(gift, 10), gift.at(-1)]
     const palets = `[${s}]`.repeat(n / 50)

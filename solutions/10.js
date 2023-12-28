@@ -1,3 +1,4 @@
+// 170 points
 function createChristmasTree (ornaments, height) {
   let tree = ''
   let buffer = 0

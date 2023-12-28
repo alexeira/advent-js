@@ -1,3 +1,4 @@
+// 290 points
 function drawGift (size, symbol) {
   let bgSize = size - 2
 

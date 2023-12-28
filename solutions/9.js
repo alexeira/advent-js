@@ -1,3 +1,4 @@
+// 240 points
 function adjustLights (lights) {
   const reverseLights = [...lights].reverse()
   let changes = 0; let reverseChanges = 0

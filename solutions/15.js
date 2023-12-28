@@ -1,3 +1,4 @@
+// 50 points
 function autonomousDrive (store, movements) {
   const robotPath = store.findIndex(el => el.includes('!'))
   const robotPos = store[robotPath].indexOf('!')
