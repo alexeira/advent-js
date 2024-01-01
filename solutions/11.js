@@ -1,3 +1,4 @@
+// 30 points
 function getIndexsForPalindrome (word) {
   let draft = [...word]
 

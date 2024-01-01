@@ -1,3 +1,4 @@
+// 260 points
 function maxGifts (houses) {
   const n = houses.length
 

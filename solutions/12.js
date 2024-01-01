@@ -1,3 +1,4 @@
+// 25 points
 function checkIsValidCopy (original, copy) {
   if (original.length !== copy.length) return false
 

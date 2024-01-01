@@ -1,3 +1,4 @@
+// 270 points
 function calculateTime (deliveries) {
   let acum = 0
   let g = ''
